@@ -9,11 +9,15 @@ Walmart_Sales Data: The primary dataset used for this analysis is the "walmart.c
 
 ### Tools
 - Python notebook - Data cleaning
-- Mysql - Explatory data analysis
+- Mysql - data analysis
 - Power BI - Visual report
 
 
  ### Data Processing Steps
+
+#### Explore the Data
+Goal: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
+Analysis: Use functions like .info(), .describe(), and .head() to get a quick overview of the data structure and statistics.
  
 #### Data Cleaning (Python)
 1. Duplicate Handling: Identified and removed 51 duplicate records using "df.drop_duplicates()"
@@ -27,6 +31,9 @@ Walmart_Sales Data: The primary dataset used for this analysis is the "walmart.c
 3. Data Type Conversion: Changed 'unit_price' from string to float
 
 4. New Column Creation: Added 'total_price' by multiplying 'unit_price' with 'quantity'.
+
+#### Load Data into MySQL 
+Set Up Connections: Connect to MySQL using sqlalchemy and load the cleaned data into each database.
 
    #### SQL Analysis
 
