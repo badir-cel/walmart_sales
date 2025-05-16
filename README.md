@@ -3,9 +3,15 @@
 
 This project analyzes Walmart sales data to uncover insights into sales performance, customer behavior, and payment trends. The analysis involves data cleaning, SQL queries for business questions, and Power BI visualizations.
 
+[Dashboard screenshot](PNG)
+
+![Screenshot 2025-05-16 154148](https://github.com/user-attachments/assets/3c691410-ec8f-47d0-9048-99ff8e33f910)
+
+
 ### Data Sources
 
 Walmart_Sales Data: The primary dataset used for this analysis is the "walmart.csv" file, containing detailed information about each sales made by the company.
+
 
 ### Tools
 - Python notebook - Data cleaning
@@ -71,5 +77,5 @@ Set Up Connections: Connect to MySQL using sqlalchemy and load the cleaned data 
   
 
    ### Data source
-    Kaggle API Key (for data downloading)
+    Kaggle API Key 
    
